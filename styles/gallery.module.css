@@ -1,0 +1,26 @@
+.galleryContainer {
+  padding: 20px;
+}
+
+.imageWrapper {
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #ccc,
+}
+
+.galleryImage {
+  transition: transform 0.3s ease-in-out;
+}
+.galleryImage:hover {
+  transform: scale(1.15);
+}
+
+.modalContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  outline: none; /* Remove the outline */
+}

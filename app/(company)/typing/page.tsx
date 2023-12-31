@@ -6,7 +6,6 @@ import { Box, Container,Input } from "@mui/material";
 import { CSSProperties, useEffect, useState } from "react";
 import styles from "../../../styles/home.module.css";
 import { Wrapper } from "@/components/Wrapper/Wrapper";
-
 let initialWords = makeWords();
 
 interface OutgoingWordProps {

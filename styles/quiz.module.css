@@ -1,0 +1,78 @@
+/* Quiz Container */
+.quizContainer {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  /* Quiz Title */
+  .quizTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Question */
+  .question {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Options */
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Option Label */
+  .optionLabel {
+    font-size: 16px;
+  }
+  
+  /* Result Message */
+  .resultMessage {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Button Styles */
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Check Answer Button */
+  .checkAnswerButton {
+    background-color: #2196f3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkAnswerButton:hover {
+    background-color: #0d47a1;
+  }
+  
+  /* Next Question Button */
+  .nextQuestionButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .nextQuestionButton:hover {
+    background-color: #1b5e20;
+  }
+  
+
