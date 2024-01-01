@@ -1,4 +1,9 @@
 export const navItems = [
+  {
+    title: "Home",
+    icon: "",
+    url: "/",
+  },
  {
     title: "Quizes",
     icon: "",
